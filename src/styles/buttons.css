@@ -1,0 +1,38 @@
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.email,
+.linkedin {
+  margin-top: 30px;
+  width: 165px;
+  padding: 8px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.email {
+  margin-right: 20px;
+  color: black;
+  background-color: #d2d2d2;
+}
+
+.email .email-icon,
+.linkedin .linkedin-icon {
+  font-size: 25px;
+}
+
+.linkedin {
+  color: white;
+  background-color: #0077b5;
+}
+
+.email span,
+.linkedin span {
+  margin-left: 10px;
+  font-size: 20px;
+}

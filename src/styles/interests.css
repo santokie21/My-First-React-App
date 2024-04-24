@@ -1,0 +1,15 @@
+.interests h1,
+.interests p {
+  color: white
+}
+
+.interests h1 {
+  font-size: 2em;
+  margin-top: 25px;
+  margin-bottom: 14px;
+}
+
+.interests p {
+  font-size: 0.8em;
+  margin-bottom: 20px;
+}
